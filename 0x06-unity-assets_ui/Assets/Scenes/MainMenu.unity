@@ -156,8 +156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 228, y: 0}
-  m_SizeDelta: {x: 125, y: 125}
+  m_AnchoredPosition: {x: 199, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &52395220
 MonoBehaviour:
@@ -545,7 +545,7 @@ RectTransform:
   m_GameObject: {fileID: 726372032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: -100, y: -100, z: 1}
   m_Children: []
   m_Father: {fileID: 476645882}
   m_RootOrder: 0
@@ -768,8 +768,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -226, y: 0}
-  m_SizeDelta: {x: 125, y: 125}
+  m_AnchoredPosition: {x: -216, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1231260530
 MonoBehaviour:
@@ -889,8 +889,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: 0}
-  m_SizeDelta: {x: 125, y: 125}
+  m_AnchoredPosition: {x: -12, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1255848775
 MonoBehaviour:
@@ -1124,7 +1124,7 @@ PrefabInstance:
     - target: {fileID: 3315196408326165479, guid: 12189dddadb27fe4bbe0ffc96d9d28be,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 151
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 3315196408326165479, guid: 12189dddadb27fe4bbe0ffc96d9d28be,
         type: 3}
@@ -1249,7 +1249,7 @@ PrefabInstance:
     - target: {fileID: 5654249388122712928, guid: 62d539b4a022ace42aee61e17afab3f3,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -151
+      value: -170
       objectReference: {fileID: 0}
     - target: {fileID: 5654249388122712928, guid: 62d539b4a022ace42aee61e17afab3f3,
         type: 3}
