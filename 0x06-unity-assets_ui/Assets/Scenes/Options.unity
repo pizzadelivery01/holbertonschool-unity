@@ -2397,7 +2397,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: ' BGM'
+  m_Text: BGM
 --- !u!222 &1998602174
 CanvasRenderer:
   m_ObjectHideFlags: 0
