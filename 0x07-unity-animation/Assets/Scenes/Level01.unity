@@ -6791,10 +6791,30 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: fbe87234bc8f74945899966209a38096, type: 2}
+    - target: {fileID: 3249384011371444606, guid: 3684320fd1d839a49a411d3a1030242a,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3283967141427933297, guid: 3684320fd1d839a49a411d3a1030242a,
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283967141427933297, guid: 3684320fd1d839a49a411d3a1030242a,
+        type: 3}
+      propertyPath: m_Direction
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283967141427933297, guid: 3684320fd1d839a49a411d3a1030242a,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5609107380520661707, guid: 3684320fd1d839a49a411d3a1030242a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5982400412789607656, guid: 3684320fd1d839a49a411d3a1030242a,
         type: 3}
@@ -6804,7 +6824,7 @@ PrefabInstance:
     - target: {fileID: 5982400412789607656, guid: 3684320fd1d839a49a411d3a1030242a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.46
       objectReference: {fileID: 0}
     - target: {fileID: 5982400412789607656, guid: 3684320fd1d839a49a411d3a1030242a,
         type: 3}
@@ -6851,10 +6871,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8932904559842239236, guid: 3684320fd1d839a49a411d3a1030242a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 8967427871739749739, guid: 3684320fd1d839a49a411d3a1030242a,
         type: 3}
       propertyPath: timerText
       value: 
       objectReference: {fileID: 789305979}
+    - target: {fileID: 8967427871739749742, guid: 3684320fd1d839a49a411d3a1030242a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3684320fd1d839a49a411d3a1030242a, type: 3}
