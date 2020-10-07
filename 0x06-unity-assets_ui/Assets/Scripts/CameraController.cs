@@ -7,11 +7,16 @@ public class CameraController : MonoBehaviour
     float rotationSpeed = 1;
     public Transform Target, Player;
     float mouseX, mouseY;
+	public bool isInverted;
     
     void Start()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+		if (PlayerPrefs.GetString("Inverted") != "")
+			isInverted = false;
+		else
+			isInverted = true;
     }
 
     private void LateUpdate()
@@ -23,7 +28,7 @@ public class CameraController : MonoBehaviour
     void CamControl()
     {
         mouseX += Input.GetAxis("Mouse X") * rotationSpeed;
-        mouseY -= Input.GetAxis("Mouse Y") * rotationSpeed;
+        mouseY -= Input.GetAxis("Mouse Y") * rotationSpeed * (isInverted ? -1 : 1);
         mouseY = Mathf.Clamp(mouseX, 10, 75);
 
         transform.LookAt(Target);
