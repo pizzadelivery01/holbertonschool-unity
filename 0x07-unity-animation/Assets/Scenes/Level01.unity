@@ -6780,6 +6780,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 597559875210447162, guid: 2025b58a83345f445921716724d1e1cc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6422238775538013487, guid: 2025b58a83345f445921716724d1e1cc,
         type: 3}
       propertyPath: timerText

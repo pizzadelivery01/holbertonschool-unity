@@ -16,8 +16,9 @@ GameObject:
   - component: {fileID: 6422238775538013482}
   - component: {fileID: 6422238775538012880}
   - component: {fileID: 6422238775538013487}
+  - component: {fileID: 2373474705660815929}
   m_Layer: 0
-  m_Name: Player 1
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,6 +161,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 0}
+--- !u!95 &2373474705660815929
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525387532465369822}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: ebe7d831cf9586444ac71b1fba29bf3f, type: 3}
+  m_Controller: {fileID: 9100000, guid: fbe87234bc8f74945899966209a38096, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6422238775148738754
 GameObject:
   m_ObjectHideFlags: 0

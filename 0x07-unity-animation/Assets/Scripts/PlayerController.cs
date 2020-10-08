@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour
         if (controller.isGrounded && velocity.y < 0)
         {
 			ani.SetBool("Falling", false);
+			ani.SetBool("Jump", false);
             velocity.y = -0.01f;
         }
 
@@ -66,7 +67,7 @@ public class PlayerController : MonoBehaviour
         if (controller.isGrounded && Input.GetButton("Jump"))
         {
             velocity.y += Mathf.Sqrt(jumpHeight * -2f * gravity);
-			ani.SetTrigger("Jump");
+			ani.SetBool("Jump", true);
         }
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime + force);
