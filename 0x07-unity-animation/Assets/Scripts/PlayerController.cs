@@ -36,9 +36,9 @@ public class PlayerController : MonoBehaviour
     {
         if (controller.isGrounded && velocity.y < 0)
         {
-			ani.SetBool("Falling", false);
 			ani.SetBool("Jump", false);
             velocity.y = -0.01f;
+			ani.SetBool("Falling", false);
         }
 
 
@@ -72,7 +72,7 @@ public class PlayerController : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime + force);
 
-        if (playerTransform.position.y < -10)
+        if (playerTransform.position.y < -5)
         {
 			ani.SetBool("Falling", true);
 			if (playerTransform.position.y < -65)
