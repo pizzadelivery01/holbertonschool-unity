@@ -947,7 +947,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Paused
+  m_Text: PAUSED
 --- !u!1001 &4599584776199914565
 PrefabInstance:
   m_ObjectHideFlags: 0
