@@ -6997,6 +6997,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2806781660263285250, guid: 25d00473b62986445919fe42888af8cd,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1280
+      objectReference: {fileID: 0}
     - target: {fileID: 9027959075877787583, guid: 25d00473b62986445919fe42888af8cd,
         type: 3}
       propertyPath: m_LocalPosition.x
