@@ -410,7 +410,7 @@ GameObject:
   - component: {fileID: 7587249767967474021}
   - component: {fileID: 6526318678663865123}
   m_Layer: 5
-  m_Name: Text
+  m_Name: NextText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -760,7 +760,7 @@ GameObject:
   - component: {fileID: 151395919555962887}
   - component: {fileID: 1454286221989668998}
   m_Layer: 5
-  m_Name: Text
+  m_Name: MenuText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
