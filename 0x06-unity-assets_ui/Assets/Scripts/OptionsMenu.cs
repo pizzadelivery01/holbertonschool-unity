@@ -28,4 +28,9 @@ public class OptionsMenu : MonoBehaviour
 	{
 		SceneManager.LoadScene(PlayerPrefs.GetString("PrevScene"));
 	}
+
+	public void Apply()
+	{
+		PlayerPrefs.SetString("Inverted", inverted.isOn.ToString());
+	}
 }
