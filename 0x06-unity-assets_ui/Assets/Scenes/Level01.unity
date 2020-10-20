@@ -6988,6 +6988,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4599584775904994540, guid: 09e3f2c72c19c114b8cc76787c45fd68,
+        type: 3}
+      propertyPath: m_Name
+      value: RestartText
+      objectReference: {fileID: 0}
     - target: {fileID: 4599584776266381330, guid: 09e3f2c72c19c114b8cc76787c45fd68,
         type: 3}
       propertyPath: m_Text
