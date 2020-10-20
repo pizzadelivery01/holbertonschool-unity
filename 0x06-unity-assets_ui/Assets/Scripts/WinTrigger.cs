@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class WinTrigger : MonoBehaviour
 {
+	public GameObject winCanvas;
+	public GameObject timerCanvas;
+	public TextEditor timerText;
+	public TextEditor FinalTime;
+
     /// <summary>
     /// ends timer.
     /// </summary>
@@ -13,6 +18,14 @@ public class WinTrigger : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.SendMessage("Stop");
-        }
+			win();
+		}
     }
+
+	public void win()
+	{
+		winCanvas.SetActive(true);
+		FinalTime.text = timerText.text;
+		timerCanvas.SetActive(false);
+	}
 }
