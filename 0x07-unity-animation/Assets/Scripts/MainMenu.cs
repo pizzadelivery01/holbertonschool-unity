@@ -16,6 +16,7 @@ public class MainMenu : MonoBehaviour
 	/// <param name="level">level selected</param>
 	public void LevelSelect(int level)
 	{
+		Time.timeScale = 1f;
 		if (level == 1)
 			SceneManager.LoadScene("Level01");
 		if (level == 2)

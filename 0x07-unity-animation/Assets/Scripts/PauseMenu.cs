@@ -7,7 +7,6 @@ public class PauseMenu : MonoBehaviour
 {
 	public GameObject PauseM;
 	bool isPaused = false;
-	public GameObject Player;
 
 	void Update()
 	{
@@ -24,16 +23,13 @@ public class PauseMenu : MonoBehaviour
 	public void Pause()
 	{
 		Time.timeScale = 0f;
-		Player.GetComponent<CharacterController>().enabled = false;
 		isPaused = true;
 		PauseM.gameObject.SetActive(true);
 		Cursor.lockState = CursorLockMode.Confined;
-
 	}
 	public void Resume()
 	{
 		Time.timeScale = 1f;
-		Player.GetComponent<CharacterController>().enabled = true;
 		isPaused = false;
 		PauseM.gameObject.SetActive(false);
 		Cursor.lockState = CursorLockMode.Locked;
@@ -42,7 +38,6 @@ public class PauseMenu : MonoBehaviour
 	public void Restart()
 	{
 		Time.timeScale = 1f;
-		Player.GetComponent<CharacterController>().enabled = true;
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 
