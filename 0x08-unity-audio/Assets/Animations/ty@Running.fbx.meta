@@ -62,7 +62,7 @@ ModelImporter:
       - time: 0.49450547
         functionName: Step
         data: 
-        objectReferenceParameter: {fileID: 525387532465369822, guid: 2025b58a83345f445921716724d1e1cc,
+        objectReferenceParameter: {fileID: 11500000, guid: ef0a70c095d840b4c8788bd63f24fc0e,
           type: 3}
         floatParameter: 0
         intParameter: 0
@@ -70,7 +70,7 @@ ModelImporter:
       - time: 0.98901093
         functionName: Step
         data: 
-        objectReferenceParameter: {fileID: 525387532465369822, guid: 2025b58a83345f445921716724d1e1cc,
+        objectReferenceParameter: {fileID: 11500000, guid: ef0a70c095d840b4c8788bd63f24fc0e,
           type: 3}
         floatParameter: 0
         intParameter: 0
