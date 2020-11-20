@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class WinTrigger : MonoBehaviour
 {
-	public GameObject winCanvas;
-	public GameObject timerCanvas;
-	public TextEditor timerText;
-	public TextEditor FinalTime;
+	public bool done = false;
 
 
     /// <summary>
@@ -16,17 +13,10 @@ public class WinTrigger : MonoBehaviour
     /// <param name="other">The other Collider .</param>
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && done == false)
         {
+			done = true;
             other.gameObject.SendMessage("Stop");
-	        win();
 		}
     }
-
-	public void win()
-	{
-		winCanvas.SetActive(true);
-		FinalTime.text = timerText.text;
-		timerCanvas.SetActive(false);
-	}
 }

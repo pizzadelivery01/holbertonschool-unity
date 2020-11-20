@@ -8,6 +8,10 @@ public class Timer : MonoBehaviour
     public Text timerText;
     private float time = 0f;
     private bool stop = false;
+	public AudioSource bgm;
+	public AudioSource sting;
+	public Canvas winCanvas;
+	public Text winText;
 
     /// <summary>
     /// timer UI update.
@@ -25,9 +29,12 @@ public class Timer : MonoBehaviour
 	{
 			{
 				stop = true;
-		        timerText.color = Color.green;
-    		    timerText.fontSize = 60;
-        		this.GetComponent<Timer>().enabled = false;
+				winText.text = timerText.text;
+		        timerText.enabled = false;
+				bgm.Stop();
+				winCanvas.gameObject.SetActive(true);
+				sting.Play();
+				
 			}
 	}
 }

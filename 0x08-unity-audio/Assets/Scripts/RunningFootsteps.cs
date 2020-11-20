@@ -8,5 +8,5 @@ public class RunningFootsteps : MonoBehaviour
     private void Step()
     {
         audioSource.PlayOneShot(clip);
-    }
+	}
 }
